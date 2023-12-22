@@ -1,0 +1,23 @@
+# .rubocop.yml
+
+# Set the Ruby version for the project
+# AllCops:
+#   TargetRubyVersion: 2.7
+
+# Exclude certain files or directories from linting
+# Exclude:
+#   - 'vendor/*/'
+#   - 'db/schema.rb'
+
+# Specify which cops to enable or disable
+# Style/Documentation:
+#   Enabled: false
+
+# Define your own custom cops or configurations
+# MyCustomCop:
+#   Description: 'My custom cop'
+#   StyleGuide: 'https://example.com/my_custom_cop'
+
+# Configuration for the default set of cops
+# Layout/IndentationWidth:
+#   Width: 2
