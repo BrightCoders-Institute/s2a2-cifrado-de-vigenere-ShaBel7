@@ -76,7 +76,6 @@ puts "Key: #{key}"
 puts "Encrypted message: #{encrypted_message}"
 ```
 
-- Comentario que indica que a continuación se muestra un ejemplo de uso.
 - `original_message = 'HOLA'`: Define una variable llamada `original_message` con el valor "HOLA".
 - `key = 'SECRETO'`: Define una variable llamada `key` con el valor "SECRETO".
 - `encryptor = Encryptor.new(original_message, key)`: Crea una nueva instancia de la clase `Encryptor` con el mensaje original y la clave.
@@ -85,4 +84,3 @@ puts "Encrypted message: #{encrypted_message}"
 - `puts "Key: #{key}"`: Imprime la clave.
 - `puts "Encrypted message: #{encrypted_message}"`: Imprime el mensaje cifrado.
 
-En resumen, este código implementa un cifrado de Vigenère en Ruby utilizando una clase llamada `Encryptor`. El código también incluye información detallada de depuración mediante la impresión de valores en cada paso del cifrado.
